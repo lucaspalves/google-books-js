@@ -4,6 +4,7 @@
   "version": "0.0.1",
   "description": "A Google Books API wrapper for using in your Javascript projects.",
   "main": "dist/api.js",
+  "types": "dist/api.d.ts",
   "scripts": {
     "test": "jest",
     "start": "nodemon src/index.ts",
