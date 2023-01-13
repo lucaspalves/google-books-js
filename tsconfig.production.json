@@ -4,8 +4,8 @@
     "removeComments": true,
     "sourceMap": true,
     "inlineSources": true,
-    "sourceRoot": "/"
+    "sourceRoot": "src"
   },
   "extends": "./tsconfig.json",
-  "files": ["src/index.ts"]
+  "files": ["src/api.ts"]
 }
