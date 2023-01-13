@@ -3,6 +3,7 @@ import { Categories } from "./categories";
 export type Volume = {
   id: string;
   etag: string;
+  kind?: string;
   selfLink: string;
   volumeInfo: {
     title: string;

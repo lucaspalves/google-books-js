@@ -7,8 +7,10 @@ export interface SearchResult {
 }
 
 export interface SearchParams {
-  title?: string;
-  author?: string;
-  subject?: string;
-  isbn?: string;
+  filters: {
+    title?: string;
+    author?: string;
+    subject?: string;
+    isbn?: string;
+  };
 }
