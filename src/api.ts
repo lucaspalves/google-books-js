@@ -1,19 +1,8 @@
+import { GetVolumeError } from "./interfaces/errors";
 import { SearchParams, SearchResult } from "./interfaces/search";
 import { Volume } from "./types/volume";
 
-interface GetVolumeError {
-  error: {
-    code: number;
-    message: string;
-    errors: {
-      message: string;
-      domain: string;
-      reason: string;
-    };
-  }[];
-}
-
-export class GoogleBookAPI {
+export class GoogleBooksAPI {
   private BASE_URL = "https://www.googleapis.com/books/v1/volumes";
 
   public async search(params: SearchParams): Promise<SearchResult> {

@@ -1,5 +1,3 @@
-import { Categories } from "./categories";
-
 export type Volume = {
   id: string;
   etag: string;
@@ -19,7 +17,7 @@ export type Volume = {
     }[];
     pageCount: number;
     printType: "BOOK";
-    categories: Categories[];
+    categories: string[];
     maturityRating: string;
     imageLinks: {
       smallThumbnail: string;

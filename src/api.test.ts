@@ -1,8 +1,8 @@
-import { GoogleBookAPI } from "./api";
+import { GoogleBooksAPI } from "./api";
 describe("Google Books API", () => {
-  let API: GoogleBookAPI;
+  let API: GoogleBooksAPI;
   beforeEach(() => {
-    API = new GoogleBookAPI();
+    API = new GoogleBooksAPI();
   });
   describe("Searching for books", () => {
     describe("Running a search with filters", () => {
