@@ -2,6 +2,7 @@
 
 This is a simple Javascript wrapper for the Google Books API.
 The goal of this library is to make easy retrieving information from their API.
+You can use it on a `NodeJS` project or a `Web` project.
 
 ## Installation
 
