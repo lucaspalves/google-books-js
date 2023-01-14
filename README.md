@@ -40,7 +40,7 @@ import { GoogleBooksAPI } from "google-books-js";
 const googleBooksApi = new GoogleBooksAPI();
 
 async function fetchBook(): Promise<void> {
-  const book = await googleBooksApi.getBook("bookId");
+  const book = await googleBooksApi.getVolume("bookId");
 
   console.log(book);
 }
